@@ -6,12 +6,13 @@ def pack(a, b, c):
     print(newList)
 
 def eat_lunch(lunchList):
-    print("First I eat", lunchList[0])
-    if len(lunchList) > 1:
-        i = 1
-        while i < len(lunchList):
-            print("Next I eat", lunchList[i])
-            i += 1
+    if lunchList:
+        print("First I eat", lunchList[0])
+        if len(lunchList) > 1:
+            i = 1
+            while i < len(lunchList):
+                print("Next I eat", lunchList[i])
+                i += 1
     return None
 
 hello()
