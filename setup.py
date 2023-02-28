@@ -14,7 +14,6 @@ def eat_lunch(lunchList):
                 i += 1
     else:
         print("My lunchbox is empty!")
-    return None
 
 hello()
 pack(1, 2, 3)
