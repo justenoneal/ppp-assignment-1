@@ -2,8 +2,7 @@ def hello():
     print("Hello")
 
 def pack(a, b, c):
-    newList = [a, b, c]
-    print(newList)
+    return [a, b, c]
 
 def eat_lunch(lunchList):
     if lunchList:
@@ -13,6 +12,8 @@ def eat_lunch(lunchList):
             while i < len(lunchList):
                 print("Next I eat", lunchList[i])
                 i += 1
+    else:
+        print("My lunchbox is empty!")
     return None
 
 hello()
